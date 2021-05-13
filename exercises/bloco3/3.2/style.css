@@ -1,0 +1,12 @@
+body {
+    background-color: darkslategray;
+}
+
+#title{
+    font-size: 65px;
+    color: orange;
+}
+
+.change-color {
+    background-color: paleturquoise;
+}
