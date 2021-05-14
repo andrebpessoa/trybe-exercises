@@ -1,0 +1,65 @@
+    .caixa {
+        color: white;
+        display: inline-block;
+        line-height: 50px;
+        text-align: center;
+        vertical-align: top;
+    }
+    .width-and-height {
+        height: 50px;
+        width: 50px;
+    }
+    .padding {
+        padding: 20px;
+    }
+    .margin {
+        margin: 30px;
+    }
+    .border {
+        border: 5px solid black;
+    }
+    .super-mario {
+        /* position: absolute; */
+        width: 200px;
+    }
+    .goomba {
+        /* position: absolute; */
+        width: 200px;
+        top: 500px;
+    }
+    .baloon {
+        /* position: absolute; */
+        width: 200px;
+        top: 800px;
+    }
+    .bowser {
+        /* position: absolute; */
+        width: 200px;
+        top: 800px;
+        left: 200px;
+    }
+    .word {
+        /* position: absolute; */
+        top: 830px;
+        left: 25px;
+        z-index: 1;
+    }
+    .mario {
+        overflow-y: auto;
+        height: 300px;
+    }
+    .lista {
+        list-style: none;
+    }
+    .lista-desordenada {
+        list-style: none;
+    }
+    h1 {
+        text-align: center;
+    }
+    li:hover {
+        background-color: aqua;
+    }
+    li:active {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
