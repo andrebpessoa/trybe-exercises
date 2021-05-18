@@ -1,0 +1,80 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  h2, h3 {
+    margin: 0 0 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .header {
+    background-color: rgb(10, 126, 81);
+    color: white;
+  }
+  
+  .title-container {
+    padding: 10px 30px 0;
+  }
+  
+  .navigation {
+    background-color: cornflowerblue;
+    padding: 0 30px;
+  }
+  
+  .navigation ul {
+    padding: 5px 0;
+  }
+  
+  .navigation li {
+    margin-right: 40px;
+    list-style-type: none;
+    display: inline;
+    width: 200px;
+    /* display: inline-block; */
+  }
+  
+  .navigation li a {
+    color: white;
+    text-decoration: none;
+  }
+    
+  .content {
+    max-width: 1200px;
+    margin: auto;
+    flex-grow: 1;
+  }
+  
+  .main-content {
+    width: 70%;
+    display: inline-block;
+  }
+  
+  .side-bar {
+    background-color: lightgrey;
+    margin: 10px;
+    padding: 20px;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .article {
+    padding: 15px;
+  }
+  
+  .article-small {
+    display: inline-block;
+    width: 30%;
+    margin-right: 10px;
+    padding: 15px;
+  }
+  
+  .jobs {
+    margin-top: 40px
+  }
