@@ -4,9 +4,9 @@ let c = 25;
 let x = 90;
 let y = 30;
 let z = 60;
-let operacao = "+";
+let operacao = '+';
 
-if (operacao === "+") {
+if (operacao === '+') {
   let conta = a + b;
   console.log('1. O resultado é: ' + conta);
 } else if (operacao === "-") {
