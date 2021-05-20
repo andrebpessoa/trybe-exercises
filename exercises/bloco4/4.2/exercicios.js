@@ -97,6 +97,41 @@ function exercicio9() {
   console.log('9. ' + exercise9);
 }
 
+function exercicioBonus1() {
+  for (let index = 1; index < numbers.length; index += 1) {
+    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+      if (numbers[index] < numbers[secondIndex]) {
+        let position = numbers[index];
+        numbers[index] = numbers[secondIndex];
+        numbers[secondIndex] = position;
+      }
+    }
+  }
+  console.log('Bonus 1: ' + numbers);
+}
+
+function exercicioBonus2() {
+  for (let index = 1; index < numbers.length; index += 1) {
+    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+      if (numbers[index] > numbers[secondIndex]) {
+        let position = numbers[index];
+        numbers[index] = numbers[secondIndex];
+        numbers[secondIndex] = position;
+      }
+    }
+  }
+  console.log('Bonus 2: ' + numbers);
+}
+
+// function exercicioBonus3() {
+//   let arrayBonus = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+//   for (let i = 1; i < arrayBonus.length; i += 1) {
+//     arrayBonus.push()
+//   }
+//   console.log('Bonus 3: ' + arrayBonus);
+// }
+
 function exercicios() {
   exercicio1();
   exercicio2();
@@ -107,6 +142,9 @@ function exercicios() {
   exercicio7();
   exercicio8();
   exercicio9();
+  exercicioBonus1();
+  exercicioBonus2();
+  // exercicioBonus3();
 }
 
 exercicios();
