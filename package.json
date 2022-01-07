@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/andrebpessoa/trybe-exercises#readme",
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
